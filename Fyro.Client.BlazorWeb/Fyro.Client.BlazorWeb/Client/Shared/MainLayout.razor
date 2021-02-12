@@ -1,0 +1,51 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider Theme="MyCustomTheme" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudText Typo="Typo.h5" Class="ml-3">Application</MudText>
+        <MudAppBarSpacer />
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" Clipped="true" Elevation="2">
+        <NavMenu2 />
+    </MudDrawer>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    bool _drawerOpen = true;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+            Black = "#000000",
+            Background = "#a5d6a7",
+            BackgroundGrey = "#27272f",
+            Surface = "#373740",
+            DrawerBackground = "#82b3c9",
+            DrawerText = "#000000",
+            DrawerIcon = "#000000",
+            AppbarBackground = "#75a478",
+            AppbarText = "#000000",
+            TextPrimary = "#000000",
+            TextSecondary = "#000000",
+            ActionDefault = "#adadb1",
+            ActionDisabled = "rgba(255,255,255, 0.26)",
+            ActionDisabledBackground = "rgba(255,255,255, 0.12)",
+            Primary = "#75a478"
+        },
+    };
+}

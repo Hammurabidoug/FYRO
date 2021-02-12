@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30914.41
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fyro.Client.BlazorWeb.Server", "Fyro.Client.BlazorWeb\Server\Fyro.Client.BlazorWeb.Server.csproj", "{11296CAB-D71E-4A79-822E-3EFA7E75AAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fyro.Client.BlazorWeb.Client", "Fyro.Client.BlazorWeb\Client\Fyro.Client.BlazorWeb.Client.csproj", "{68EB1684-19B3-4843-A9E7-60AB6704CF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fyro.Client.BlazorWeb.Shared", "Fyro.Client.BlazorWeb\Shared\Fyro.Client.BlazorWeb.Shared.csproj", "{A50F5965-8834-47B7-BFDB-9083E20E977C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYRO.Business", "FYRO.Business\FYRO.Business.csproj", "{F61E20A6-DFD2-42AD-B91B-26C9F4532EF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11296CAB-D71E-4A79-822E-3EFA7E75AAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11296CAB-D71E-4A79-822E-3EFA7E75AAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11296CAB-D71E-4A79-822E-3EFA7E75AAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11296CAB-D71E-4A79-822E-3EFA7E75AAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EB1684-19B3-4843-A9E7-60AB6704CF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EB1684-19B3-4843-A9E7-60AB6704CF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EB1684-19B3-4843-A9E7-60AB6704CF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EB1684-19B3-4843-A9E7-60AB6704CF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50F5965-8834-47B7-BFDB-9083E20E977C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50F5965-8834-47B7-BFDB-9083E20E977C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50F5965-8834-47B7-BFDB-9083E20E977C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50F5965-8834-47B7-BFDB-9083E20E977C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61E20A6-DFD2-42AD-B91B-26C9F4532EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61E20A6-DFD2-42AD-B91B-26C9F4532EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61E20A6-DFD2-42AD-B91B-26C9F4532EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61E20A6-DFD2-42AD-B91B-26C9F4532EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6F347C4-75CE-47CE-A047-874699A30C86}
+	EndGlobalSection
+EndGlobal
