@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYRO.Common.Domain", "src\C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{22719344-9FD9-494F-9903-C7175815ACF0}"
 	ProjectSection(SolutionItems) = preProject
-		common.nuget.yml = common.nuget.yml
+		.github\workflows\common.nuget.yml = .github\workflows\common.nuget.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC56ABEF-516F-4733-8E69-B95EFA3B2FDD}"
